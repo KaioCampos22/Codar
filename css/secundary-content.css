@@ -1,0 +1,14 @@
+.secundary-content{
+    margin-top: 200px;
+    display: flex;    
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.secundary-content-img{
+    margin-right: 25%;
+    width:500px;
+}
+
+

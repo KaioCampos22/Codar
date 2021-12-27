@@ -1,0 +1,23 @@
+.main-header{
+    padding: 24px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+}
+.Codar{
+    font-size: 50px;
+    color: #D6000D;
+}
+
+.menu{
+    font-size: 18px;
+    display:flex;
+    align-items: center;
+    gap:32px;
+    
+}
+
+.menu-item{
+    color:black;
+}

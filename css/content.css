@@ -1,0 +1,30 @@
+.content{
+    margin-bottom: 48px;
+    padding-top: 100px;
+}
+
+.main-content{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.main-content-img{
+    margin-left: 20%;
+    width:500px;
+}
+
+.main-content-paragraph{
+    display: flex;
+    flex-direction: column;
+    align-items: left;
+    gap: 40px;
+    margin-right: 25%;
+    
+}
+
+.main-content-paragraph-title{
+    font-size: 70px;
+    color: #D6000D;
+}

@@ -1,0 +1,26 @@
+.footer{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    background: black;
+    margin-top: 100px;
+    padding-left: 100px;
+    height: 400px;
+    gap: 100px;
+}
+
+.footer-title{
+    color:#FFF;
+    padding-top: 100px;
+    padding-bottom: 25px;
+}
+.footer-subtitle{
+    color: rgb(145, 142, 142);
+}
+
+.footer-title.-codar{
+    font-size: 50px;
+    color:#FFF;
+    padding-top: 80px;
+    padding-bottom: 25px;
+}

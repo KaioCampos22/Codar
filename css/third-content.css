@@ -1,0 +1,24 @@
+.third-content{
+    display: flex;
+    flex-direction: row;
+    margin-left: 25%;
+    margin-top: 150px;
+    gap: 30px;
+}
+
+.box{
+    padding: 25px 25px 25px 100px;
+    display: flex;
+    flex-direction: column;
+    text-align: justify;
+    width: 550px;
+    height: 150px;
+    background: rgb(209, 209, 209);
+    border-radius: 20px;
+    
+}
+
+.text{
+    font-size: 25px;
+    padding-top: 5px;
+}
