@@ -24,3 +24,27 @@
     padding-top: 80px;
     padding-bottom: 25px;
 }
+
+@media (max-width: 768px){
+    .footer{
+        display: flex;
+        flex-direction: column;
+        gap: 2px;
+        width: 515px;
+        font-size: 20px;
+        height: 200vh;
+        padding-left: 20px;
+        padding-right: 50px;
+    }
+    .footer-title{
+        text-align: center;
+        font-weight: bold;
+        padding-top: 10px;
+    }
+    .footer-subtitle{
+        text-align: center;
+        color: #fff;
+    }
+
+    
+}

@@ -7,12 +7,17 @@
     display: flex;
     flex-direction: row;
     align-items: center;
-    justify-content: space-around;
+    justify-content: space-between;
+    margin-left: 10%;
+
 }
 
-.main-content-img{
-    margin-left: 20%;
-    width:500px;
+.main-content img{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    width: 500px;
 }
 
 .main-content-paragraph{
@@ -27,4 +32,12 @@
 .main-content-paragraph-title{
     font-size: 70px;
     color: #D6000D;
+}
+
+@media (max-width: 768px){
+    
+    .main-content img{
+        width: 300px;
+        margin-right: 120px;
+    }
 }

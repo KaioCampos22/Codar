@@ -10,14 +10,40 @@
     color: #D6000D;
 }
 
-.menu{
+.menu div{
     font-size: 18px;
     display:flex;
     align-items: center;
     gap:32px;
     
 }
+.menu{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-evenly;
+}
+.menu .main-button.-primary{
+    margin-left: 40px;
+}
 
 .menu-item{
     color:black;
+}
+
+
+@media (max-width: 768px){
+    .main-header{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        margin-top: 10px;
+    }
+
+    .menu {
+        display: flex;
+        flex-direction: column;
+        
+    }
 }

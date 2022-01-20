@@ -16,4 +16,13 @@
     border-radius: 7px;
     width: 300px;
     height: 50px;
+    border: none;
+    outline: none;
+}
+
+@media (max-width:786px){
+    .form{
+        margin-top: 50px;
+        margin-left: 95px;
+    }
 }
